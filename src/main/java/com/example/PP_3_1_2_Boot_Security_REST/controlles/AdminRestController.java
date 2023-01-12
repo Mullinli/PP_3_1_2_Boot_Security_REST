@@ -13,8 +13,8 @@ public class AdminRestController {
 
     private final UserService userService;
 
-    public AdminRestController(UserService userServiceImpl) {
-        this.userService = userServiceImpl;
+    public AdminRestController(UserService userService) {
+        this.userService = userService;
     }
 
     @GetMapping
